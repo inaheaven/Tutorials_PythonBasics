@@ -6,7 +6,7 @@ import googlemaps
 data = pd.read_csv('data.csv', thousands=',', encoding='euc-kr')
 print(data)
 
-mykey = 'AIzaSyDTKbfF0BeYempdaV1buP5aJ9gw3lxRYYE'
+mykey = 'your google map key'
 gmaps = googlemaps.Client(key=mykey)
 print(gmaps.geocode('서울중부경찰서', language='ko'))
 

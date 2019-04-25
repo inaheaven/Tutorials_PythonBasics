@@ -5,7 +5,7 @@ import numpy as np
 df = pd.read_csv('chicagobestsandwich2.csv', index_col=0)
 # print(df.head())
 
-mykey = 'AIzaSyDTKbfF0BeYempdaV1buP5aJ9gw3lxRYYE'
+mykey = 'your google map key'
 gmaps = googlemaps.Client(key=mykey)
 
 lat = []
